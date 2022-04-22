@@ -1,0 +1,6 @@
+import axios from 'axios';
+////////////////////////////////  MOVIE API ////////////////////////////////////////
+
+export default axios.create({
+   baseURL: "http://www.omdbapi.com",
+});
